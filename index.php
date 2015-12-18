@@ -1,15 +1,15 @@
 
 <?php
 // CONFIG APP
-require('config/main_config.php');
+require('app/config/main_config.php');
 // COMPILE LESS
-require('vendors/less_compiler.php');
+require('app/vendors/less_compiler.php');
 ?>
 
 
 <?php 
 // DOCUMENT HEADER
-include('public/templates/header.php'); 
+include('app/templates/header.php'); 
 ?>
 
 
@@ -20,5 +20,5 @@ include('public/templates/header.php');
 
 <?php 
 // DOCUMENT FOOTER
-include('public/templates/footer.php'); 
+include('app/templates/footer.php'); 
 ?>
