@@ -1,23 +1,24 @@
 
 <?php
-// CONFIG
+// CONFIG APP
 require('config/main_config.php');
 // COMPILE LESS
 require('modules/less_compiler.php');
 ?>
 
 
-<html>
-	<head>
-		<title>Fake Online Store</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-	</head>
-	<body>
+<?php 
+// DOCUMENT HEADER
+include('templates/header.php'); 
+?>
 
 
 		<div class="slide-wrapper">
 			<p>Hello World!</p>
 		</div>
 
-	</body>
-</html>
+
+<?php 
+// DOCUMENT FOOTER
+include('templates/footer.php'); 
+?>
