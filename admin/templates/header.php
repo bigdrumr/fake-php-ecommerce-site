@@ -11,6 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- css -->
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="public/css/main.css">
 	</head>
 	<body>

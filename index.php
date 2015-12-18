@@ -3,13 +3,13 @@
 // CONFIG APP
 require('config/main_config.php');
 // COMPILE LESS
-require('modules/less_compiler.php');
+require('vendors/less_compiler.php');
 ?>
 
 
 <?php 
 // DOCUMENT HEADER
-include('templates/header.php'); 
+include('public/templates/header.php'); 
 ?>
 
 
@@ -20,5 +20,5 @@ include('templates/header.php');
 
 <?php 
 // DOCUMENT FOOTER
-include('templates/footer.php'); 
+include('public/templates/footer.php'); 
 ?>
